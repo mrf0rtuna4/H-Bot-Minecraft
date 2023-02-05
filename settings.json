@@ -1,0 +1,48 @@
+{
+    "bot-account":{ 
+        "username": "example",
+        "password": "",
+        "type": "mojang"
+    },
+
+    "server":{
+        "ip": "heypers.ml",
+        "port": 27648,
+        "version": "1.16.5"
+    },
+
+    "position":{
+        "enabled": false,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+
+    "utils":{
+        "auto-auth":{
+            "enabled": true,
+            "password": "example"
+        },
+
+        "anti-afk":{
+            "enabled": true,
+            "sneak": false
+        },
+
+        "chat-messages":{
+            "enabled": false,
+            "repeat": true,
+            "repeat-delay": 60,
+
+            "messages": [
+                "абоба", 
+                "бебра", 
+                "чт.. ", 
+                "И помните: Наша безопастность - Наш мир"
+            ]
+        },
+
+        "chat-log": true,
+        "auto-reconnect": false
+    }
+}
